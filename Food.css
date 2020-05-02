@@ -1,0 +1,17 @@
+#mainDiv{
+    border: 10px;
+    border-color: blue;
+    background-color: aqua;
+    height: 1000px;
+    text-align: center;
+}
+.AreaDiv
+{
+    text-align: left ;
+    float:left;
+    width:40%;
+    border: 1px solid;
+    border-color: black;
+    padding: 20;
+    min-height: 300px;
+}

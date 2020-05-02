@@ -1,0 +1,29 @@
+<html>
+<head>
+   <link href="Food.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="Food.js"></script>
+</head>
+<body>
+    <div id="mainDiv">
+        <div id="InputArea" class="AreaDiv">
+        <h1>Enter data for what you ate </h1>
+        <div>Name of food:<input id="foodName" type="text"></div>
+        <div>Calories:<input id="foodCalories" type="text"></div>
+        <div>How many did you eat:<input id="foodQTY" type="text"></div>
+        <div><input type="button" id="btnAdd" onclick="btnAdd()" value="Click to Add to Your Total"/></div>
+        <div><input type="button" value="Clear" onclick="btnCLear()"/></div>
+        </div>
+        <div id="ShowArea" class="AreaDiv">
+         <h1>Name-----Calories-----Quantity </h1>
+         <ul id="resultDiv">
+         </ul>
+         <div>
+         =======================================
+         </div>
+         <div >
+         <label id="FinalShow" ></label>
+         </div>
+        </div>
+    </div>
+</body>
+</html>
